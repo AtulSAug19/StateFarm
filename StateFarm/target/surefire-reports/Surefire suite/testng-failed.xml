@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.qa.StateFarm.StateFarm.TestScript1">
+        <methods>
+          <include name="startTest"/>
+          <include name="enterPersonalDetails"/>
+          <include name="setUp"/>
+          <include name="additionalInfo"/>
+          <include name="addVehicle"/>
+          <include name="enterDriverDetails"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.StateFarm.StateFarm.TestScript1 -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

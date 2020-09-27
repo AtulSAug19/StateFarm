@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="162015" started-at="2020-09-27T06:32:56Z" finished-at="2020-09-27T06:35:38Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="162015" started-at="2020-09-27T06:32:56Z" finished-at="2020-09-27T06:35:38Z">
+      <class name="com.qa.StateFarm.StateFarm.TestScript1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.StateFarm.StateFarm.TestScript1@79b4d0f]" name="setUp" is-config="true" duration-ms="14477" started-at="2020-09-27T06:32:56Z" finished-at="2020-09-27T06:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startTest()[pri:1, instance:com.qa.StateFarm.StateFarm.TestScript1@79b4d0f]" name="startTest" duration-ms="7482" started-at="2020-09-27T06:33:11Z" finished-at="2020-09-27T06:33:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="enterPersonalDetails()[pri:2, instance:com.qa.StateFarm.StateFarm.TestScript1@79b4d0f]" name="enterPersonalDetails" duration-ms="26936" started-at="2020-09-27T06:33:18Z" depends-on-methods="com.qa.StateFarm.StateFarm.TestScript1.startTest" finished-at="2020-09-27T06:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPersonalDetails -->
+        <test-method status="PASS" signature="addVehicle()[pri:3, instance:com.qa.StateFarm.StateFarm.TestScript1@79b4d0f]" name="addVehicle" duration-ms="42890" started-at="2020-09-27T06:33:45Z" depends-on-methods="com.qa.StateFarm.StateFarm.TestScript1.enterPersonalDetails" finished-at="2020-09-27T06:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addVehicle -->
+        <test-method status="PASS" signature="enterDriverDetails()[pri:4, instance:com.qa.StateFarm.StateFarm.TestScript1@79b4d0f]" name="enterDriverDetails" duration-ms="39801" started-at="2020-09-27T06:34:28Z" depends-on-methods="com.qa.StateFarm.StateFarm.TestScript1.addVehicle" finished-at="2020-09-27T06:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDriverDetails -->
+        <test-method status="PASS" signature="additionalInfo()[pri:5, instance:com.qa.StateFarm.StateFarm.TestScript1@79b4d0f]" name="additionalInfo" duration-ms="29883" started-at="2020-09-27T06:35:08Z" depends-on-methods="com.qa.StateFarm.StateFarm.TestScript1.enterDriverDetails" finished-at="2020-09-27T06:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionalInfo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.StateFarm.StateFarm.TestScript1@79b4d0f]" name="tearDown" is-config="true" duration-ms="479" started-at="2020-09-27T06:35:38Z" finished-at="2020-09-27T06:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.StateFarm.StateFarm.TestScript1 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
